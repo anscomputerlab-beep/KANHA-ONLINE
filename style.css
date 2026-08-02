@@ -5,7 +5,62 @@
     font-family:'Poppins',sans-serif;
 }
 
-body{
+/* Floating WhatsApp */
+
+.whatsapp{
+position:fixed;
+right:20px;
+bottom:20px;
+width:60px;
+height:60px;
+background:#25D366;
+color:#fff;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:30px;
+text-decoration:none;
+box-shadow:0 8px 20px rgba(0,0,0,.3);
+z-index:999;
+}
+
+/* Floating Call */
+
+.callbtn{
+position:fixed;
+left:20px;
+bottom:20px;
+width:60px;
+height:60px;
+background:#0d6efd;
+color:#fff;
+border-radius:50%;
+display:flex;
+justify-content:center;
+align-items:center;
+font-size:28px;
+text-decoration:none;
+box-shadow:0 8px 20px rgba(0,0,0,.3);
+z-index:999;
+}
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:40px 20px;
+margin-top:60px;
+}
+
+footer h3{
+font-size:30px;
+margin-bottom:10px;
+}
+
+footer p{
+margin:8px 0;
+}body{
     background:#f5f7fb;
     color:#222;
 }
